@@ -11,9 +11,8 @@
 int main(void)
 {
 	listint_t *head;
-	
-    head = NULL;
 
+	head = NULL;
 	add_nodeint_end(&head, 2);
 	add_nodeint_end(&head, 5);
 	add_nodeint_end(&head, 7);
